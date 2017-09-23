@@ -1,0 +1,24 @@
+{
+  "name": "travelsite",
+  "version": "1.0.0",
+  "description": "a generic travel site",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bliden/travelSite.git"
+  },
+  "author": "Benjamin Liden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bliden/travelSite/issues"
+  },
+  "homepage": "https://github.com/bliden/travelSite#readme"
+}
