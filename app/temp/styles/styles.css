@@ -1106,8 +1106,12 @@ a {
 @media (min-width: 800px) {
 
 .site-header {
-      background-color: rgba(47,85,114, .3)
+      background-color: rgba(47,85,114, .3);
+      position: fixed
 }
+      .site-header--dark {
+         background-color: rgba(23, 51, 72, .85);
+      }
    }
 
 @media (min-width: 800px) {
@@ -1125,6 +1129,10 @@ a {
               transform: translateX(-50%) scale(.8);
       -webkit-transform-origin: 50% 0%;
               transform-origin: 50% 0%;
+      -webkit-transition: -webkit-transform .3s ease-out;
+      transition: -webkit-transform .3s ease-out;
+      transition: transform .3s ease-out;
+      transition: transform .3s ease-out, -webkit-transform .3s ease-out;
       background-color: #2f5572;
       padding: 25px 36px;
    }
@@ -1136,6 +1144,10 @@ a {
          -webkit-transform: translateX(0);
                  transform: translateX(0)
    }
+         .site-header--dark .site-header__logo {
+            -webkit-transform: scale(.57);
+                    transform: scale(.57);
+         }
    }
 
 .site-header__logo__graphic {
@@ -1288,7 +1300,7 @@ a {
 @media (min-width: 800px) {
 
 .primary-nav--pull-right li {
-            padding: 20px;
+            padding-right: 20px;
             float: left;
             display: block
       }
@@ -1322,6 +1334,9 @@ a {
             padding: 12px 0;
             font-size: 1rem
       }
+            .primary-nav--pull-right a.is-current-link {
+               color: #fabb69;
+            }
    }
 
 .reveal-item {
