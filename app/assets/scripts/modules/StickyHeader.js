@@ -17,7 +17,6 @@ class StickyHeader {
       this.headerLinks.smoothScroll();
    };
    createHeaderWaypoint(header, links) {
-      var that = this;
       new Waypoint({
          element: this.headerTriggerElement[0],
          handler: function(direction) {
