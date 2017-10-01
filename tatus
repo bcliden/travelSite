@@ -1,0 +1,162 @@
+[33mcommit 012b9bfa16fa52d498824e145592f4c7038bf75b[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Fri Sep 29 22:52:11 2017 -0400
+
+    Completed lazy loading of images & added Waypoint recalc
+
+[33mcommit 47d35f693eda25065afc828753d9a36dd68e4bd1[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Fri Sep 29 21:56:31 2017 -0400
+
+    Modal overlay completed.
+
+[33mcommit a50527d5cf800aaffe2b10461248330d6163ac05[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Fri Sep 29 17:52:19 2017 -0400
+
+    Sticky header working. Links and logo react w/ page position.
+
+[33mcommit ba7d359db37e6da8d400f32634d7718254b4076b[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Fri Sep 29 16:09:25 2017 -0400
+
+    Completed reveal on scroll behavior.
+
+[33mcommit 7041e3eaa31f8c43c38790ff5cd49a3d7119609d[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Fri Sep 29 12:30:36 2017 -0400
+
+    "Header" expand behavior added on mobile. Button styled and animated.
+
+[33mcommit df14b25c642c4af0f28e125d70e858bade4b3eac[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Thu Sep 28 16:47:23 2017 -0400
+
+    es6 intro files cleaned up. Clean slate in app/assets/scripts.
+
+[33mcommit 294ce657d5a41711e187d4e63bb4d5e28050abb3[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Thu Sep 28 15:16:33 2017 -0400
+
+    Webpack integrated w/ gulp. app/assets/scripts/app.js -> temp/scripts/app.js
+
+[33mcommit b58ab2a6a5ead7058444d7f4338ab88d46ece6e6[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Thu Sep 28 13:09:17 2017 -0400
+
+    "Header" styled. Mobile behavior roughed in.
+
+[33mcommit 17278e6e89010e7b78e24d36a381041c4d6766c7[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Thu Sep 28 10:28:32 2017 -0400
+
+    Footer styling complete
+
+[33mcommit b8fa57d63ff31b3d6ca24790f9a0420f583e92ed[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Wed Sep 27 18:19:45 2017 -0400
+
+    Spritesheet integrated- gulp icons, cleans, builds, and moves. HTML updated to reflect this.
+
+[33mcommit 40da654ca61152ba9947267b705e37e5cf97d098[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Wed Sep 27 15:19:06 2017 -0400
+
+    SVG sprite added to app/temp/ using gulp-svg-sprite.
+
+[33mcommit 058dc00505490dc41295e3d9fdc99b73fc8fa0e8[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Wed Sep 27 13:08:03 2017 -0400
+
+    Completed "Testimonials". Responsive sizes adjusted for large res & up.
+
+[33mcommit a7bdc41817fa0047a9d98bccf7b519037583828c[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Tue Sep 26 19:49:27 2017 -0400
+
+    Styled "Testimonials" for small & lg.
+
+[33mcommit 56ff676cac5852f2aae1ed5e7ec488e27365ab92[m
+Merge: 1bb727f fa0f1a3
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Tue Sep 26 18:11:21 2017 -0400
+
+    Merge branch 'our-features'
+
+[33mcommit fa0f1a3da932f85e02778b23cf0835ac48784a8d[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Tue Sep 26 18:05:33 2017 -0400
+
+    "Features" complete. Fixed icon & font align on mobile.
+
+[33mcommit 1bb727f8ee0f16ceb0d4b86519c4011c462fc464[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Tue Sep 26 13:50:45 2017 -0400
+
+    "Beginning" styles finished. Formatting cleaned up.
+
+[33mcommit 9f451b70d37ebfe2e4cfb3121e3f815b6ebbcd02[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Tue Sep 26 10:01:50 2017 -0400
+
+    "Beginning" block wip. new css elements: headline, gutter. mixins improved
+
+[33mcommit 1f7f2750227ce8fb755bf51446944bc01104dc42[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Sun Sep 24 22:11:06 2017 -0400
+
+    Mixins added, Hero block finished. Started on beginning & features.
+
+[33mcommit 3e50a449ecf1df82a5ec2a0da6f8ccd55f0be609[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Sun Sep 24 15:41:29 2017 -0400
+
+    Gulpfile now modular, CSS now BEM method. Buttons and large-hero styled.
+
+[33mcommit 0c18731902fd121506d2a6e0542aa519ab44a133[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Sat Sep 23 20:23:45 2017 -0400
+
+    Gulp configured & tested. PostCSS working. prev package.json error fix
+
+[33mcommit c5c534ecefcb29442da2f34befe9c06533b4afda[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Sat Sep 23 18:59:12 2017 -0400
+
+    added legacy depends for project instruction to package.json
+
+[33mcommit f53a1fb97114cbf13f3e3030f0688cad11e41415[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Sat Sep 23 18:48:21 2017 -0400
+
+    package.json updated with jQuery & Normalize.css
+
+[33mcommit 99071401013ddc9665be77f8a0d8afd41810ea6a[m
+Author: Benjamin Liden <benjamin.c.liden@gmail.com>
+Date:   Fri Sep 22 17:19:24 2017 -0400
+
+    Added new keywords (meta)
+
+[33mcommit d013c119c58197d49e0fa2bf6be3a7506043b47d[m
+Author: Brad <brad@schiffwebdesign.com>
+Date:   Thu Aug 18 19:37:30 2016 -0700
+
+    Fix typo and add low res copy of image.
+
+[33mcommit 7be54a15b7a2647b333864e755abfc5538e29a61[m
+Author: Brad <brad@learnwebcode.com>
+Date:   Wed Apr 20 11:43:07 2016 -0700
+
+    Remove calls to CSS and JS from starter files.
+
+[33mcommit 98d553b60f5f8c6c094c6a8d3de1d0860b80a964[m
+Author: Brad <brad@learnwebcode.com>
+Date:   Wed Apr 20 11:41:21 2016 -0700
+
+    Update calls in Head to CSS and JS.
+
+[33mcommit 8953652f124a286e9015156e320cc2580463a77b[m
+Author: Brad <brad@learnwebcode.com>
+Date:   Wed Apr 20 11:37:16 2016 -0700
+
+    Initial commit with vital files.
